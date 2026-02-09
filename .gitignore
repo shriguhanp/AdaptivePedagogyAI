@@ -1,0 +1,274 @@
+# ============================================
+# AI-Tutor Project .gitignore
+# ============================================
+
+# ============================================
+# User Generated Data and Outputs
+# ============================================
+# User data directory (migrated to data/user/)
+data/user/
+data/knowledge_bases/
+run_code_workspace/
+src/agents/question/reference_papers/
+src/services/rag/eg_only_for_analysis/
+
+# ============================================
+# Python Related
+# ============================================
+# Bytecode cache
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution/Packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.env
+*.env
+!.env.example
+env/
+venv/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+
+# ============================================
+# Node.js and Frontend Build
+# ============================================
+# Node modules
+node_modules/
+**/node_modules/
+
+# Next.js build output
+.next/
+web/.next/
+out/
+web/out/
+
+# Frontend build artifacts
+dist/
+web/dist/
+build/
+web/build/
+
+# TypeScript build info
+*.tsbuildinfo
+
+# ============================================
+# Common Output and Cache Directories
+# ============================================
+# Output directories
+output/
+outputs/
+**/output/
+**/outputs/
+
+# Cache directories
+cache/
+**/cache/
+.cache/
+.ruff_cache
+
+# Log files
+*.log
+
+# ============================================
+# IDE and Editors
+# ============================================
+# VSCode
+.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Cursor
+.cursor/
+
+# PyCharm / IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+.netrwhist
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ============================================
+# Operating System Files
+# ============================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ============================================
+# Temporary Files
+# ============================================
+*.tmp
+*.temp
+*.bak
+*.backup
+*.swp
+*.swo
+
+# ============================================
+# Testing and Coverage
+# ============================================
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.tox/
+nosetests.xml
+coverage.xml
+develop/
+
+# ============================================
+# Jupyter Notebook
+# ============================================
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# ============================================
+# Type Checking
+# ============================================
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# ============================================
+# Other Python Tools
+# ============================================
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# ============================================
+# Profiling
+# ============================================
+*.prof
+*.pstats
+
+# ============================================
+# Database Files
+# ============================================
+*.db
+*.sqlite
+*.sqlite3
+
+# ============================================
+# Compressed Files
+# ============================================
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# ============================================
+# Reference Papers (large binary files)
+# ============================================
+# Keep structure but ignore large PDFs in reference_papers
+# question_agents/reference_papers/**/*.pdf
+
+# ============================================
+# Audio/Video Output (TTS generated)
+# ============================================
+*.mp3
+*.wav
+*.ogg
+!demo/*.mp4
