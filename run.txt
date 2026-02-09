@@ -1,0 +1,1 @@
+ /Users/manju/Downloads/AdaptiveX-mavrix/venv/bin/python3 scripts/start_web.py
